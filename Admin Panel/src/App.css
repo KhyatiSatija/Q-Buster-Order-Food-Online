@@ -1,0 +1,311 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+/* App.css */
+
+.App {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.column-names {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.column-names div {
+  padding: 10px 20px;
+  background-color: #f0f0f0;
+  color: #333;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+.column-names div:hover {
+  background-color: #ddd;
+}
+
+.section-container {
+  border: 1px solid #ccc;
+  padding: 20px;
+  border-radius: 5px;
+}
+
+.section-container h2 {
+  margin-bottom: 10px;
+}
+
+.section-container ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.section-container ul li {
+  margin-bottom: 5px;
+}
+/* App.css */
+
+.App {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #ff7f00; /* Orange color */
+}
+
+.column-names {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.column-names div {
+  padding: 10px 20px;
+  background-color: #ffa94d; /* Lighter shade of orange */
+  color: #333;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+.column-names div:hover {
+  background-color: #ff7f00; /* Darker shade of orange on hover */
+}
+
+.section-container {
+  border: 1px solid #ff7f00; /* Border color */
+  padding: 20px;
+  border-radius: 5px;
+  background-color: #fff3e6; /* Lighter shade of orange for background */
+}
+
+.section-container h2 {
+  margin-bottom: 10px;
+  color: #ff7f00; /* Orange color */
+}
+
+.section-container ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.section-container ul li {
+  margin-bottom: 5px;
+}
+/* App.css */
+
+/* Table styles */
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+table th,
+table td {
+  padding: 8px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+table th {
+  background-color: #ff7f00; /* Orange color for table header */
+  color: #fff; /* White text color for table header */
+}
+
+table tbody tr:nth-child(even) {
+  background-color: #f9f9f9; /* Light gray background for even rows */
+}
+
+table tbody tr:hover {
+  background-color: #f0f0f0; /* Darker gray background on hover */
+}
+/* App.css */
+
+.deliver-button {
+  background-color: #ff4d4d; /* Red background color */
+  color: #fff; /* White text color */
+  border: none;
+  padding: 5px 10px;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+.delivered {
+  color: green;
+}
+
+/* App.css */
+
+.table-container {
+  margin-top: 20px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+table th,
+table td {
+  padding: 8px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+table th {
+  background-color: #ff7f00; /* Orange color for table header */
+  color: #fff; /* White text color for table header */
+}
+
+table tbody tr:nth-child(even) {
+  background-color: #f9f9f9; /* Light gray background for even rows */
+}
+
+table tbody tr:hover {
+  background-color: #f0f0f0; /* Darker gray background on hover */
+}
+
+.food-image {
+  max-width: 100px;
+  max-height: 100px;
+}
+/* App.css */
+
+/* Styling for the "Add New Item" button */
+.add-new-item-button {
+  background-color: #ff7f50; /* Orange color */
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  margin-bottom: 20px;
+}
+
+.add-new-item-button:hover {
+  background-color: #ff6347; /* Darker shade of orange on hover */
+}
+
+/* Styling for the Add New Item form */
+.add-new-item-form {
+  display: flex;
+  flex-direction: column;
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+.add-new-item-form label {
+  margin-bottom: 10px;
+}
+
+.add-new-item-form input[type="text"],
+.add-new-item-form input[type="file"] {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 20px;
+}
+
+.add-new-item-form button[type="submit"] {
+  background-color: #ff7f50; /* Orange color */
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.add-new-item-form button[type="submit"]:hover {
+  background-color: #ff6347; /* Darker shade of orange on hover */
+}
+/* EditMenuOption.css */
+
+.edit-menu-option {
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+.edit-menu-option h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.edit-menu-option-form .form-group {
+  margin-bottom: 15px;
+}
+
+.edit-menu-option-form label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+.edit-menu-option-form input[type="text"],
+.edit-menu-option-form input[type="file"] {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.edit-menu-option-form .add-item-button {
+  background-color: #ff7f50; /* Orange color */
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.edit-menu-option-form .add-item-button:hover {
+  background-color: #ff6347; /* Darker shade of orange on hover */
+}
